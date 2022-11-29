@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loudh - Let the Music Speak!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="image/logo.png" alt="Loudh"> Loudh </li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Best of Maroon 5 - No Copyright Sounds</h1>
+            <div class="SongItemcontainer">
+                <div class="SongItem">
+                    <img src="image/Song 1.jpg" alt="1">
+                    <span class="SongName">Girls Like You</span>
+                    <span class="SongListPlay"><span class="TimeStamp">04:38 <i id="0"
+                                class="fa-solid SongItemPlay fa-circle-play"></i></span></span>
+                </div>
+
+                <div class="SongItem">
+                    <img src="image/Song 2.jpg" alt="1">
+                    <span class="SongName">Memories</span>
+                    <span class="SongListPlay"><span class="TimeStamp">04:46 <i id="1"
+                                class="fa-solid SongItemPlay fa-circle-play"></i></span></span>
+                </div>
+
+                <div class="SongItem">
+                    <img src="image/Song 3.jpg" alt="1">
+                    <span class="SongName">Sugar</span>
+                    <span class="SongListPlay"><span class="TimeStamp">05:12 <i id="2"
+                                class="fa-solid SongItemPlay fa-circle-play"></i></span></span>
+                </div>
+
+                <div class="SongItem">
+                    <img src="image/Song 4.jpg" alt="1">
+                    <span class="SongName">Animals</span>
+                    <span class="SongListPlay"><span class="TimeStamp">03:41 <i id="3"
+                                class="fa-solid SongItemPlay fa-circle-play"></i></span></span>
+                </div>
+
+                <div class="SongItem">
+                    <img src="image/Song 5.jpg" alt="1">
+                    <span class="SongName">PayPhone</span>
+                    <span class="SongListPlay"><span class="TimeStamp">03:38 <i id="4"
+                                class="fa-solid SongItemPlay fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- Fontawesome icons-->
+            <i class="fa-3x fa-solid fa-backward" id="previous"></i>
+            <i class="fa-3x fa-solid fa-circle-play" id="masterPlay"></i>
+            <i class="fa-3x fa-solid fa-forward" id="next"></i>
+
+        </div>
+
+        <div class="SongInfo">
+            <img src="image/SongGif.gif" width="20px" alt="" class="GIF" id="gif"> <span id="masterSongName">Girls Like You - Maroon 5</span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/70726cb705.js" crossorigin="anonymous"></script>
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
